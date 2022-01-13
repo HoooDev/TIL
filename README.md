@@ -49,9 +49,9 @@ repository(commits) : 변경사항(커밋)을 저장하는 곳
 
 > **커밋 기록자를 등록**
 >
-> >	git config --global user.name ""
-> >	git config --global user.email ""
-> >	git config --global -l
+> >	git config --global user.name ""  
+> >	git config --global user.email ""  
+> >	git config --global -l  
 >
 > **local directory를 git으로 관리**
 >
@@ -64,9 +64,9 @@ repository(commits) : 변경사항(커밋)을 저장하는 곳
 > >	- trackted : git이 관리하는 파일
 >
 > **staging 단계**
-> >	git add 
-> >	git add 파일이름(폴더이름)
-> >	git add . -> 전체 다
+> >	git add  
+> >	git add 파일이름(폴더이름)  
+> >	git add . -> 전체 다  
 >
 > **commit 단계**
 > >
@@ -82,14 +82,14 @@ repository(commits) : 변경사항(커밋)을 저장하는 곳
 > >	-2 : 원하는 갯수 만큼의 내역을 보여줍니다. (임의의 숫자 사용 가능)  
 >
 > **원격 저장소 등록**
-> >	git remote add <이름> <주소>
-> >	  *보통 remote연결이 한 개인 경우 origin을 사용함.
-> >	git remote -v => repository 확인
+> >	git remote add <이름> <주소>  
+> >	  *보통 remote연결이 한 개인 경우 origin을 사용함.  
+> >	git remote -v => repository 확인  
 >
 > **원격 저장소 삭제**
-> >	git remote rm <이름>
-> >	git remote remove <이름>
+> >	git remote rm <이름>  
+> >	git remote remove <이름>  
 >
 > **원격 저장소에 업로드**
 >
-> >	git push <저장소 이름(origin)><브렌치 이름(master)>
+> >	git push 저장소 이름(origin) 브렌치 이름(master)  
