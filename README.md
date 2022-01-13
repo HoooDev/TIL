@@ -43,9 +43,9 @@
 
 ### *git 명령어*
 
-working directory : 로컬의 사용자 작업이 일어나는 곳
-staging area : 커밋을 위한 파일 및 폴더가 추가되는 곳
-repository(commits) : 변경사항(커밋)을 저장하는 곳
+working directory : 로컬의 사용자 작업이 일어나는 곳  
+staging area : 커밋을 위한 파일 및 폴더가 추가되는 곳  
+repository(commits) : 변경사항(커밋)을 저장하는 곳  
 
 > **커밋 기록자를 등록**
 >
@@ -70,7 +70,7 @@ repository(commits) : 변경사항(커밋)을 저장하는 곳
 >
 > **commit 단계**
 > >
-> >	- git commit -m "메시지"
+> >	git commit -m "메시지"
 >
 > **commit log 단계**
 > >	git log : commit log
